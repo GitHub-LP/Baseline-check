@@ -1,0 +1,9 @@
+﻿
+2024年7月15日 9:11:45
+
+
+当前存在账户为：Administrator, DefaultAccount, Guest, UNK, WDAGUtilityAccount
+密码复杂性策略不符合标准
+guest账户重命名策略符合标准
+guest账户停用策略不符合标准
+系统日志查看器大小设置策略符合标准

@@ -1,0 +1,1 @@
+powershell -noprofile -command "&{ start-process powershell -ArgumentList '-noprofile -file .\test.ps1' -verb RunAs}"
