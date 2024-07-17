@@ -1,0 +1,113 @@
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 1:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+以太网适配器 以太网:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   本地链接 IPv6 地址. . . . . . . . : fe80::6c0a:c031:1667:92fe%5
+   IPv4 地址 . . . . . . . . . . . . : 192.168.101.236
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 192.168.101.1
+
+以太网适配器 VMware Network Adapter VMnet1:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   本地链接 IPv6 地址. . . . . . . . : fe80::776e:4496:1510:3dad%14
+   IPv4 地址 . . . . . . . . . . . . : 192.168.40.1
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 
+
+以太网适配器 VMware Network Adapter VMnet8:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   本地链接 IPv6 地址. . . . . . . . : fe80::b43c:4e00:35f4:62a5%11
+   IPv4 地址 . . . . . . . . . . . . : 192.168.230.1
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : mshome.net
+
+以太网适配器 蓝牙网络连接:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+   
+
+主机名:           LAPTOP-VA8DKQ85
+OS 名称:          Microsoft Windows 11 家庭中文版
+OS 版本:          10.0.22631 暂缺 Build 22631
+OS 制造商:        Microsoft Corporation
+OS 配置:          独立工作站
+OS 构建类型:      Multiprocessor Free
+注册的所有人:     UNK
+注册的组织:       暂缺
+产品 ID:          00342-30481-74325-AAOEM
+初始安装日期:     2024/6/3, 17:33:22
+系统启动时间:     2024/7/13, 18:48:57
+系统制造商:       HUAWEI
+系统型号:         NbDE-WXX9
+系统类型:         x64-based PC
+处理器:           安装了 1 个处理器。
+                  [01]: Intel64 Family 6 Model 140 Stepping 2 GenuineIntel ~2496 Mhz
+BIOS 版本:        HUAWEI 1.20, 2023/7/5
+Windows 目录:     C:\WINDOWS
+系统目录:         C:\WINDOWS\system32
+启动设备:         \Device\HarddiskVolume1
+系统区域设置:     zh-cn;中文(中国)
+输入法区域设置:   zh-cn;中文(中国)
+时区:             (UTC+08:00) 北京，重庆，香港特别行政区，乌鲁木齐
+物理内存总量:     16,167 MB
+可用的物理内存:   5,135 MB
+虚拟内存: 最大值: 23,353 MB
+虚拟内存: 可用:   3,549 MB
+虚拟内存: 使用中: 19,804 MB
+页面文件位置:     C:\pagefile.sys
+域:               WORKGROUP
+登录服务器:       \\LAPTOP-VA8DKQ85
+修补程序:         安装了 4 个修补程序。
+                  [01]: KB5039895
+                  [02]: KB5027397
+                  [03]: KB5040442
+                  [04]: KB5039338
+网卡:             安装了 5 个 NIC。
+                  [01]: Realtek USB FE Family Controller
+                      连接名:      以太网
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.101.1
+                      IP 地址
+                        [01]: 192.168.101.236
+                        [02]: fe80::6c0a:c031:1667:92fe
+                  [02]: Intel(R) Wi-Fi 6 AX201 160MHz
+                      连接名:      WLAN
+                      状态:        媒体连接已中断
+                  [03]: Bluetooth Device (Personal Area Network)
+                      连接名:      蓝牙网络连接
+                      状态:        媒体连接已中断
+                  [04]: VMware Virtual Ethernet Adapter for VMnet1
+                      连接名:      VMware Network Adapter VMnet1
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.40.254
+                      IP 地址
+                        [01]: 192.168.40.1
+                        [02]: fe80::776e:4496:1510:3dad
+                  [05]: VMware Virtual Ethernet Adapter for VMnet8
+                      连接名:      VMware Network Adapter VMnet8
+                      启用 DHCP:   否
+                      IP 地址
+                        [01]: 192.168.230.1
+                        [02]: fe80::b43c:4e00:35f4:62a5
+Hyper-V 要求:     已检测到虚拟机监控程序。将不显示 Hyper-V 所需的功能。
