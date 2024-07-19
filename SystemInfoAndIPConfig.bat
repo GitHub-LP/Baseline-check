@@ -1,5 +1,5 @@
 @echo off  
-echo."____________________________________________________________________"
+echo."====================================================================="
 echo."|                                                                   |"
 echo."|                 ¨€¨€¨€¨€¨€¨[ ¨€¨€¨[¨€¨€¨€¨€¨€¨€¨€¨[¨€¨€¨€¨[   ¨€¨€¨[ ¨€¨€¨€¨€¨€¨€¨[              |"
 echo."|                ¨€¨€¨X¨T¨T¨€¨€¨[¨€¨€¨U¨€¨€¨X¨T¨T¨T¨T¨a¨€¨€¨€¨€¨[  ¨€¨€¨U¨€¨€¨X¨T¨T¨T¨T¨a              |"
@@ -8,7 +8,8 @@ echo."|                ¨€¨€¨X¨T¨T¨€¨€¨U¨€¨€¨U¨€¨€¨X¨T¨T¨a  ¨€¨€¨U¨^¨€¨€¨[¨€¨€¨U¨
 echo."|                ¨€¨€¨U  ¨€¨€¨U¨€¨€¨U¨€¨€¨€¨€¨€¨€¨€¨[¨€¨€¨U ¨^¨€¨€¨€¨€¨U¨^¨€¨€¨€¨€¨€¨€¨X¨a             |"
 echo."|                ¨^¨T¨a  ¨^¨T¨a¨^¨T¨a¨^¨T¨T¨T¨T¨T¨T¨a¨^¨T¨a  ¨^¨T¨T¨T¨a ¨^¨T¨T¨T¨T¨T¨a              |"
 echo."|                                   SystemInfoAndIPConfig  v1.0     |"
-echo."|___________________________________________________________________|"
+echo."|                                                by AiENG           |"
+echo."====================================================================="
 
 :: ÉèÖÃÊä³öÎÄ¼şµÄÂ·¾¶ºÍÃû³Æ  
 set outputFile=SystemInfoAndIPConfig.txt  
@@ -28,8 +29,30 @@ echo. >> "%outputFile%"
 :: »ñÈ¡systeminfoĞÅÏ¢²¢×·¼Óµ½ÎÄ¼ş  
 systeminfo >> "%outputFile%"  
 
+:: »ñÈ¡WindowsÓ²¼şĞÅÏ¢
+:: ²é¿´CPU
+echo. CPUÓ²¼şĞÅÏ¢: >> "%outputFile%" 
+echo. >> "%outputFile%"  
+wmic cpu list brief >> "%outputFile%"
+:: ²é¿´ÄÚ´æÖ÷°åÊıÁ¿
+echo. ÄÚ´æÖ÷°åÊıÁ¿: >> "%outputFile%" 
+echo. >> "%outputFile%"  
+wmic memorychip list brief >> "%outputFile%"
+:: ²é¿´BIOSÖ÷°åĞÅÏ¢
+echo. BIOSÖ÷°åĞÅÏ¢: >> "%outputFile%" 
+echo. >> "%outputFile%"  
+wmic bios get serialnumber >> "%outputFile%"
+:: ²é¿´ÎïÀíÄÚ´æ
+:: wmic memphysical list brief >> "%outputFile%"
+:: ²é¿´Íø¿¨
+:: wmic nic list brief >> "%outputFile%"
+
+:: ²é¿´Ó²ÅÌÆ·ÅÆ¼°´óĞ¡
+:: Wmic logicaldisk >> "%outputFile%"
+:: ²é¿´´ÅÅÌÊıÁ¿
+:: wmic volume >> "%outputFile%"
 
   
 echo.  
-echo. ÒÑ³É¹¦½«ipconfigºÍsysteminfoĞÅÏ¢±£´æµ½ %outputFile%  
+echo. ÒÑ³É¹¦½«ipconfigºÍsysteminfoĞÅÏ¢ÒÔ¼°WindowsÓ²¼şĞÅÏ¢±£´æµ½ %outputFile%  
 pause
